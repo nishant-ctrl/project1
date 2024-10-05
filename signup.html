@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="icon" href="/web/img/res.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="content1"><b>FoodHub</b></div>
+            <div class="content2">
+                <a href="index.html">Back to Home</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="mains">
+            <form>
+                <fieldset>
+                    <h1>Sign Up on FoodHub</h1>
+                    <div class="signup">
+                        <p>
+                            <label for="firstName">First name:</label>
+                            <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on"
+                                required autofocus><br>
+                        </p>
+                        <p>
+                            <label for="lastName"> Last name:</label>
+                            <input type="text" name="lastName" id="lastName" placeholder="Frostier" autocomplete="on"
+                                required>
+                        </p>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;Gender:
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="female" value="female">
+                            <label for="female">Female</label>
+
+                        </p>
+                        <p>
+                            <label for="e-mail">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:</label>
+                            <input type="email" name="e-mail" id="e-mail" placeholder="jane@foodhub.in" required>
+                        </p>
+                        <p>
+                            <label for="passWord">&nbsp;Password:</label>
+                            <input type="password" name="passWord" id="passWord" placeholder="Secret Here" required>
+                        </p>
+                        <p>
+                            <label for="phone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile:</label>
+                            <input type="tel" name="phone" id="phone" placeholder="9999988888"
+                                pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                        </p>
+                        <p>
+                            <i>Already have an account? </i><a href="login.html" class="link">Login</a>
+                        </p>
+                    </div>
+                </fieldset>
+                <button>SignUp</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>
+            @2024 All Rights Reserved
+        </p>
+    </footer>
+</body>
+
+</html>

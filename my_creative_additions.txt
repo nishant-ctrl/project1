@@ -1,0 +1,9 @@
+Here are some my creative additions : 
+1. Added logo icon ( namely "res.png" ) to the title.
+2. Created login and signup page and created links between them.
+    created "login.html" and created a login page using forms such as
+    FirstName , LastName , Email , Password , Mobile
+    created "signup.html" and created a signup page using forms such as
+    FirstName , LastName , Gender , Email , Password , Mobile
+3. Used HTML Semantics such as <header>, <main>, <section>, <nav>, <footer>.
+4. Corrected the height of the main welcome page.
